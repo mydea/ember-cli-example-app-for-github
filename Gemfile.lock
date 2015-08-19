@@ -1,0 +1,25 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    hooks (0.3.3)
+    livingstyleguide (1.2.2)
+      hooks (= 0.3.3)
+      minisyntax
+      redcarpet (~> 3.0.0)
+      sass
+      thor
+      tilt
+    minisyntax (0.2.5)
+    redcarpet (3.0.0)
+    sass (3.4.16)
+    thor (0.19.1)
+    tilt (2.0.1)
+
+PLATFORMS
+  x86-mingw32
+
+DEPENDENCIES
+  livingstyleguide
+
+BUNDLED WITH
+   1.10.5
