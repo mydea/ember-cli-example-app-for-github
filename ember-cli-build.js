@@ -4,7 +4,11 @@ var mergeTrees = require('broccoli-merge-trees');
 
 module.exports = function (defaults) {
     var app = new EmberApp(defaults, {
-        // Add options here
+        sassOptions: {
+            includePaths: [
+                'app'
+            ]
+        }
     });
 
     return mergeTrees([app.toTree()]);
