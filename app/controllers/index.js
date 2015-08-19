@@ -8,6 +8,6 @@ export default Ember.Controller.extend({
         this.store.findAll("user").then((users) => {
             console.timeEnd("load users");
             this.set("users", users);
-        })
+        });
     }).on("init")
 });
